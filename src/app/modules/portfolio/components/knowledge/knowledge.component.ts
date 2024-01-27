@@ -26,7 +26,7 @@ export class KnowledgeComponent {
     },
 
     {
-      src: 'assets/icons/knowledge/nodejs.jpg',
+      src: 'assets/icons/knowledge/download.png',
       alt: 'icone do html5'
     },
 
