@@ -2,34 +2,33 @@
   display: grid;
   grid-template-columns: 300px 300px 300px 300px;
   justify-content: center;
-  height: 300px;
   margin: 25px;
-  gap:10px;
+  gap: 10px;
 }
 
-h2{
+h2, h4 {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
 }
 
-
-h4 {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
-
 .box {
-  display:flexbox;
   border: 2px solid green;
   border-radius: 6px;
   padding: 0 10px;
-
 }
 
 ul {
   list-style: none;
+}
+
+/* Media Query para telas menores que 768px */
+@media screen and (max-width: 768px) {
+  .frame4 {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin: 0 10px;
+    display: flex; /* Adiciona display flex */
+    flex-direction: column; /* Define flex-direction como coluna */
+  }
 }

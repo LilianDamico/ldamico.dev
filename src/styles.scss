@@ -2,3 +2,38 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
+
+// Responsividade
+@media screen and (max-width: 768px) {
+  /* Estilos para telas menores, como smartphones */
+  /* Por exemplo, ajustar tamanhos de fonte, margens e paddings */
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  /* Estilos para tamanhos de tela médios, como tablets */
+  /* Por exemplo, ajustar o layout para ocupar mais espaço horizontalmente */
+  .container {
+    max-width: 960px; /* ou qualquer largura que você considere adequada */
+  }
+
+  .column {
+    width: 45%; /* ou qualquer largura que você considere adequada */
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  /* Estilos para telas maiores, como desktops */
+  /* Por exemplo, ajustar o layout para ocupar mais espaço horizontalmente */
+  .container {
+    max-width: 1200px; /* ou qualquer largura que você considere adequada */
+  }
+
+  .column {
+    width: 30%; /* ou qualquer largura que você considere adequada */
+  }
+}
+
+

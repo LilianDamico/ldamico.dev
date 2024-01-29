@@ -6,6 +6,7 @@
   background-color: #000011;
   color: azure;
   border-top: 2px solid green;
+  justify-content: space-around;
 }
 
 a {
@@ -15,4 +16,18 @@ a {
 
 figure {
   color:azure;
+}
+
+p{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  .frame2 {
+    flex-direction: column; /* Muda a direção do flexbox para uma coluna em telas menores */
+    height: auto; /* Define a altura automática para permitir o conteúdo expandir verticalmente */
+  }
 }
