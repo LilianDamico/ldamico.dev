@@ -15,7 +15,7 @@ export class ExperiencesComponent {
         strong: "Full-Stack Developer",
         p: "Agosto 2021"
       },
-      text: "Free Lancer"
+      text: "Promec - Projetos e Mecânica",
     },
 
     {
