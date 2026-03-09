@@ -6,17 +6,16 @@ import { FooterComponent } from '../../components/footer/footer.component';
 import { ProjectsComponent } from '../../components/projects/projects.component';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [
-    HeaderComponent,
-    KnowledgeComponent,
-    ExperiencesComponent,
-    FooterComponent,
-    ProjectsComponent
-  ],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+    selector: 'app-home',
+    imports: [
+        HeaderComponent,
+        KnowledgeComponent,
+        ExperiencesComponent,
+        FooterComponent,
+        ProjectsComponent
+    ],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.scss'
 })
 export class HomeComponent {
 
